@@ -11,14 +11,11 @@ $request_video_url = 'https://www.facebook.com/DailyProthomAlo/videos/3544996325
 
 
 $input_video = str_replace(':','%3A',$request_video_url);
-
 $input_video = str_replace('/','%2F',$input_video);
-
 $input_video = str_replace('?sfnsn=wa','',$input_video);
 
 
 $prefix = 'https://www.facebook.com/plugins/video.php?height=314&href=';
-
 $safix = '&show_text=false&width=560&t=0';
 
 
