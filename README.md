@@ -2,9 +2,14 @@
 
 <h1 style="text-align: center">To run facebook video in iframe dynamically We should filter the link url as like</h1>
 <?php
+
+
+
+
+
 $request_video_url = 'https://www.facebook.com/DailyProthomAlo/videos/3544996325603356';
 
-$input_video = str_replace([':','/','?sfnsn=wa'],['%3A','%2F',''],$request_video_url);
+$input_video = str_replace(':','%3A',$request_video_url);
 $input_video = str_replace('/','%2F',$input_video);
 $input_video = str_replace('?sfnsn=wa','',$input_video);
 
