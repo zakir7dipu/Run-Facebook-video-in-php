@@ -1,6 +1,6 @@
 # Run-Facebook-video-in-php
 
-<h1 style="text-align: center">To run facebook video in iframe dynamicly We should filter the link url as like</h1>
+<h1 style="text-align: center">To run facebook video in iframe dynamically We should filter the link url as like</h1>
 <?php
 $request_video_url = 'https://www.facebook.com/DailyProthomAlo/videos/3544996325603356';
 
